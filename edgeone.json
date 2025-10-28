@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "include": ["functions/**/*.js"]
+  },
+  "build": {
+    "command": "echo 'Building for EdgeOne'",
+    "output": "./"
+  }
+}
