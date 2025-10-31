@@ -6,5 +6,11 @@
     "command": "echo 'Building for EdgeOne'",
     "output": "./"
   },
-  "include": ["functions/**/*.js", "**/*.html", "**/*.json"]
+  "include": ["functions/**/*.js", "**/*.html", "**/*.json"],
+  "env": {
+    "KV_STORAGE": {
+      "type": "kv",
+      "namespace": "checkin-storage"
+    }
+  }
 }
